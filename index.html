@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travly | Home & About</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Travly</a>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <nav id="nav-menu">
+  <a href="index.html">Home</a>
+  <a href="district.html">District info</a>
+  <a href="video.html">Video tour</a>
+  <a href="map.html">Map</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+  </header>
+
+  <section id="home" class="container">
+    <h2>Welcome to Travly</h2>
+    <p>Discover the best travel tips, explore amazing destinations, and enjoy our visual guides designed to inspire your next adventure. Whether you're planning a quick getaway or a long journey, Travly helps you find the beauty and stories behind every place you visit.</p>
+
+    <img src="Blue and White Globe Y2K Streetwear Logo.png" alt="About Travly" style="width: 30%; display: block; margin: 20px auto; border-radius: 10px;">
+
+  </section>
+
+  <section id="about" class="container">
+    <h2>About Travly</h2>
+    <p>Travly is your friendly travel companion a place where exploration meets inspiration. Our mission is to help travelers discover unique destinations, find useful tips, and experience the world through stunning visuals and authentic stories. Whether you're an adventurer, a city explorer, or a dreamer planning your next trip, Travly is here to guide you every step of the way.</p>
+
+<img src="64fad3c9ba4f7961849487.jpg" alt="About Travly" style="width: 60%; display: block; margin: 20px auto; border-radius: 10px;">
+
+  </section>
+
+  <footer>
+    <p>Advertising | Privacy Policy | Contact us: 240435@astanait.edu.kz | ☎ +7 708 354 1213</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('nav-menu');
+    toggle.addEventListener('click', () => menu.classList.toggle('active'));
+  </script>
+</body>
+</html>
